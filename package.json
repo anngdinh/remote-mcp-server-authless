@@ -1,7 +1,7 @@
 {
-  "name": "remote-mcp-server-authless",
+  "name": "@anngdinh/remote-mcp-server-authless",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
@@ -18,5 +18,17 @@
     "@modelcontextprotocol/sdk": "^1.7.0",
     "agents": "^0.0.65",
     "zod": "^3.24.2"
-  }
+  },
+  "description": "test package npm",
+  "main": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anngdinh/remote-mcp-server-authless.git"
+  },
+  "author": "anngdinh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anngdinh/remote-mcp-server-authless/issues"
+  },
+  "homepage": "https://github.com/anngdinh/remote-mcp-server-authless#readme"
 }
